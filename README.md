@@ -11,10 +11,6 @@ Technical University of Munich
 
 ### [Full paper](https://arxiv.org) 
 
-<p align="center">
-    <img src = ./assets/looped_Identity-interpolation-1.gif width="10000" alt="Results"/>
-</p>
-
 ## Bibtex
 ```
 @inproceedings{??,
@@ -24,7 +20,6 @@ Technical University of Munich
     year = {2024},
    }
 ```
-
 
 ## Background
 The field of 3D face modeling has a significant gap between high-end and low-end automated approaches. While high-end approaches enables us to reconstruct a photorealitic 3D face, these methods are not often used in practice since it still costs expensive in terms of time/space complexity and is missing low-end property such as cheap, fast, high compatibility, and robust performance in a tracking/reconstruction task. On the other hand, a low-end approach, such as FLAME, is often used in practice due to thoese properties and benefitial to be used as a baseline in an application.  
@@ -36,7 +31,7 @@ We present the identity field learning towards 3D Parametric Face Models, which 
 This project is done in a Guided Research Module at TUM: [Visual Computing and AI Group](https://www.niessnerlab.org/index.html). I would like to thank [MSc. Tobias Kirschstein](https://tobias-kirschstein.github.io/) and Prof. Dr Matthias Nießner for such a great opportunity and for providing resources and support.
 
 # Pipeline overview
-![Pipeline Overview](./assets/model-architecture.png)
+
 
 # Requirements
 - Linux x86-64 (test on Ubuntu 22.04.4)
