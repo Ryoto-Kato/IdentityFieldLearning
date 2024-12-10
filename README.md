@@ -11,6 +11,8 @@ Technical University of Munich
 
 ### [Full paper](https://arxiv.org) 
 
+
+
 ## Bibtex
 ```
 @inproceedings{??,
@@ -62,9 +64,14 @@ follow officitial repo instruction,
 ## Dataset setup and pre-processing
 
 ### FLAME
+- Download followings from official FLAME website and save into ./data
+    - `flame2023.pkl`
+    - `flame_dynamic_embedding.npy`
+    - `flame_static_embedding.pkl`
+
 - we want to obtain FLAME Vertex Mask for a face-mask region
-    - We have already provided vertex-mask in ./data/FLAME_mask_vertexID.npy
-    - This is obtained by using official FLAME Vertex Masks ()
+    - We have already provided vertex-mask `FLAME_mask_vertexID.npy` in ./data
+    - This is obtained by using official FLAME Vertex Masks, check out the FLAME official side
 
 ### NeRSemble
 #### Download NeRsemble
