@@ -30,7 +30,9 @@ The field of 3D face modeling has a significant gap between high-end and low-end
 We present the identity field learning towards 3D Parametric Face Models, which is interleaving the significant gap in 3D face modelling, and it leads to practically beneficial above low-end properties with high-end properties, such as photorealistic appearance. Our generative model can achieve both high generality and experssiveness given the limited number of training samples (128 identities). The training takes c.a. 9 hours on NVIDIA RTX 3080. Our model architecture enables us to create 3D consistent photorealistic face representations without constraints in semi real-time. In a test time, one can reconstruct a 3D photorealistic face given a single view in **30 seconds**. We hope our model can contribute to one's photorealistic face reconstruction task as a baseline to make the gap smaller in 3D face modelling. 
 
 ### Acknowledgement
-This project is done in a Guided Research Module at TUM: [Visual Computing and AI Group](https://www.niessnerlab.org/index.html). I would like to thank [MSc. Tobias Kirschstein](https://tobias-kirschstein.github.io/) and Prof. Dr Matthias Nießner for such a great opportunity and for providing resources and support.
+This project is done in a Guided Research Module at TUM: [Visual Computing and AI Group](https://www.niessnerlab.org/index.html). I would like to thank [MSc. Tobias Kirschstein](https://tobias-kirschstein.github.io/) and Prof. Dr Matthias Nießner for such a great opportunity and for providing resources and support. Additionally, I would like to thank all contributers/authors of related works: [3DGS](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/), [StyleGAN2-ada-pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch), [FLAME](https://flame.is.tue.mpg.de/), and [HeadNeRF](https://hy1995.top/HeadNeRF-Project/).
+
+#### Reference: an adaption of 3DGS to non-zero principle point offsets: [issue #144](https://github.com/graphdeco-inria/gaussian-splatting/issues/144#issuecomment-1938504456), officially apply to the official 3DGS implementation
 
 # Pipeline overview
 
