@@ -35,7 +35,7 @@ This project is done in a Guided Research Module at TUM: [Visual Computing and A
 #### Reference: an adaption of 3DGS to non-zero principle point offsets: [issue #144](https://github.com/graphdeco-inria/gaussian-splatting/issues/144#issuecomment-1938504456), officially apply to the official 3DGS implementation
 
 # Pipeline overview
-
+![model-architecture](https://github.com/user-attachments/assets/c47a842a-ba63-4225-b824-f6970d6e7590)
 
 # Requirements
 - Linux x86-64 (test on Ubuntu 22.04.4)
