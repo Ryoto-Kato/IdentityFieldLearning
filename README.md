@@ -9,13 +9,13 @@ Ryoto Kato, Tobias Kirschstein, and Matthias Nießner
 Technical University of Munich
 </p>
 
-### [Full paper](https://arxiv.org) 
-
 <p align="center">
     <img src = https://github.com/user-attachments/assets/62a0d47b-f04e-4a64-a955-85ac01ec8e29 width="5000" alt="Results"/>
 </p>
 
-## Bibtex
+### [Full paper](https://arxiv.org) 
+
+### Bibtex
 ```bib
 @inproceedings{??,
     title = {Identity Field Learning towards Photorealitic 3D Parametric Face Models},
