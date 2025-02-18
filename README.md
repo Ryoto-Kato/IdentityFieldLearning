@@ -11,7 +11,7 @@ Technical University of Munich
 
 ### [Full paper](https://arxiv.org) 
 
-
+- TODO add GIF (compressed under 10MB)
 
 ## Bibtex
 ```
